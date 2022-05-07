@@ -1,0 +1,317 @@
+@media (max-width: 1300px){
+    .meat_box{
+        flex-direction: row;
+        overflow: hidden;
+        overflow-x: auto;
+        margin-bottom: 30px;
+    }
+    .meat_box::-webkit-scrollbar{
+        height: 3px;
+    }
+    .meat_box::-webkit-scrollbar-thumb{
+        background: #69CF17;
+        width: 200px;
+        border-radius: 30px;
+    
+    }
+    .meat_item{
+        flex-shrink: 0;
+    }
+    .meat{
+        align-items: center;
+    }
+    .meat_item{
+        margin-bottom: 0;
+    }
+    .nav{
+        position: sticky;
+        top: 0;
+        left: 0;
+    }
+}
+@media (max-width: 800px){
+    .bigburger_title{
+        font-size: 60px;
+        line-height: 110%;
+    }
+    .bigburger_info{
+        font-size: 28px;
+        margin: 12px 0;
+    }
+    .bigburger_text{
+        font-size: 17px;
+        line-height: 130%;
+    }
+    .bigburger_price{
+        width: 260px;
+        height: 90px;
+        font-size: 45px;
+    }
+    .bigburger_link {
+        width: 240px;
+    }
+    .meat_item{
+        max-width: 300px;
+        width: 100%;
+    }
+    .meat_text{
+        font-size: 16px;
+        line-height: 120%;
+    }
+}
+@media (max-width: 750px){
+    .nav_list{
+        flex-direction: column;
+        position: absolute;
+        align-items: center;
+        gap: 30px;
+        top: 0 ;
+        right: -220px;
+        background: rgba(0, 0, 0, 0.8);
+        padding: 50px;
+        height: 100vh;
+        transition: 1s;
+    }
+    #menu:checked + .nav_list{
+        right: 0;
+    }
+    .close{
+        position: absolute;
+        left: 20px;
+        top: 20px;
+    }
+    .nav_link:hover{
+        padding:  22px 15px;
+    }
+    .nav_info,
+    .close{
+        display: block;
+    }
+    .bigburger{
+        height: 600px;
+    }
+ 
+}
+@media (max-width: 670px){
+    .bigburger_text{
+        font-size: 15px;
+    }
+    .bigburger_title{
+        font-size: 50px;
+    }
+    .bigburger_info{
+        font-size: 23px;
+    }
+    .bigburger_price{
+        width: 210px;
+        height: 70px;
+        font-size: 35px;
+    }
+    .bigburger_link{
+        width: 190px;
+        height: 40px;
+        font-size: 15px;
+        line-height: 18px;
+    }
+    .bigburger{
+        height: 500px;
+    }
+    .burger_link {
+        font-size: 16px;
+        line-height: 20px;
+    }   
+    .meat_box{
+        gap: 20px;
+    } 
+ 
+    .meat_title{
+        font-size: 17px;
+    }
+    .meat_text{
+        font-size: 15px;
+        line-height: 22px;
+    }
+}
+@media(max-width: 600px){
+    .meat_item{
+        max-width: 280px;
+        width: 100%;
+    }
+}
+@media(max-width: 550px){
+    .logo{
+        width: 180px;
+        height: 45px;
+        font-size: 28px;
+    }
+    .nav_info{
+        font-size: 25px;
+    }
+    .bigburger_title{
+        font-size: 40px;
+    }
+    .bigburger_info{
+        font-size:22px;
+    }
+    .bigburger_price {
+        width: 180px;
+        height: 60px;
+        font-size: 30px;
+    }
+    .bigburger_link {
+        width: 160px;
+        height: 35px;
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .meat{
+        gap: 20px;
+        
+    }
+  
+}
+@media(max-width: 500px){
+    .header_top{
+        flex-direction: column;
+    }
+    .header_way{
+        margin-top: 20px;
+    }
+    .header_link{
+        margin-left: 0;
+    }
+    .header_list{
+        gap: 15px;
+        margin-left: 0;
+    }
+    .bigburger{
+        height: 420px;
+    }
+    .burger_link{
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .burger_link span{
+        padding: 15px 6px 15px;
+
+    }
+    .burger_list{
+        gap: 15px;
+    }
+}
+@media(max-width: 450px){
+    .logo{
+        width: 140px;
+        height: 35px;
+        font-size: 21px;
+    }
+    .nav_info{
+        font-size: 23px;
+    }
+    .bigburger_title{
+        font-size: 30px;
+    }
+    .bigburger_info{
+        font-size: 20px;
+        margin: 10px 0;
+    }
+    .bigburger_text{
+        font-size: 14px;
+        line-height: 110%;
+    }
+    .bigburger_bottom{
+        margin-top: 20px;
+    }
+    .bigburger_price {
+        width: 150px;
+        height: 50px;
+        font-size: 25px;
+    }
+    .bigburger_link {
+        width: 130px;
+        height: 30px;
+        font-size: 14px;
+        line-height: 17px;
+    }
+}
+@media(max-width: 400px){
+    .logo{
+        width: 130px;
+        height: 35px;
+        font-size: 20px;
+    }
+    .nav_info{
+        font-size: 20px;
+    }
+ 
+    .burger_list{
+        gap: 10px;
+        height: 40px;
+        align-items: center;
+    }
+    .burger_link{
+        font-size: 13px;
+        line-height: 15px;
+    }
+    .burger_link span{
+        padding: 11px 0;
+    }
+
+}
+@media(max-width: 370px){
+    .header_list{
+        padding: 10px 0;
+    }
+    .header_way{
+        margin-top: 10px;
+        font-size: 13px;
+        line-height: 15px;
+    }
+    .header_way i{
+        font-size: 15px;
+    }
+    .header_list{
+        font-size: 13px;
+        line-height: 15px;
+        gap: 8px;
+    }
+    .logo{
+        width: 110px;
+        height: 30px;
+        font-size: 17px;
+    }
+    .nav_info{
+        font-size: 18px;
+    }
+    .bigburger{
+        height: 350px;
+    }
+  
+}
+@media(max-width: 350px){
+    .bigburger_text{
+        font-size: 12px;
+        line-height: 110%;
+    }
+    .bigburger_title{
+        font-size: 25px;
+    }
+    .bigburger_info{
+        font-size: 18px;
+        margin: 8px 0;
+    }
+    .bigburger_bottom{
+        margin-top: 15px;
+    }
+    .bigburger_price {
+        width: 120px;
+        height: 40px;
+        font-size: 20px;
+    }
+    .bigburger_link {
+        width: 100px;
+        height: 28px;
+        font-size: 13px;
+        line-height: 15px;
+    }
+}
